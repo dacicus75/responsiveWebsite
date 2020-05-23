@@ -73,6 +73,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1)
     background: #fff !important;
     color: #000 !important;
     margin-right: 5px;
+    margin-bottom: 50px;
 }
 .service{
     margin: 75px 0;
@@ -124,7 +125,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1)
 .active-service p{
     color: #fff;
 }
-.feature{
+/*------------------*/
+.feature, .explore{
     margin: 200px 0;
 }
 .feature img{
@@ -136,14 +138,14 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1)
     font-weight: bold;
     line-height: 50px;
 }
-.feature p{
+.feature p, .explore p{
     margin-top: 25px;
     margin-bottom: 50px;
     color: #808080;
     font-size: 14px;
     line-height: 18px;
 }
-.feature a{
+.feature a, .explore a{
     width: 170px;
     padding: 15px 10px;
     display: block;
@@ -155,4 +157,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1)
     font-weight: bold;
     font-size: 14px;
     box-shadow: 0 9px 9px 1px rgba(204, 204, 204, 0.5);
+}
+.explore h2{
+    margin-top: 50px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.explore a {
+    margin-bottom: 50px;
 }
